@@ -18,7 +18,7 @@
 #
 # Couple of Scenarios how it would play out:
 #
-# Scenario 1:
+# Scenario A:
 #
 # Someone creates a line of credit for 1000$ and 35% APR.
 #
@@ -26,7 +26,7 @@
 # He keeps the money drawn for 30 days.  He should owe 500$ * 0.35 / 365 * 30 = 14.38$ worth
 # of interest on day 30.  Total payoff amount would be 514.38$
 #
-# Scenario 2:
+# Scenario B:
 #
 # Someone creates a line of credit for 1000$ and 35% APR.
 #
@@ -42,8 +42,6 @@
 # Scenario 1 is 'a'
 # Scenario 2 is 'b'
 
-# I create these functions to append line_of_credit and transactions lists.
-# This will create a list of lists, which is like a table.
 from __future__ import division
 from __future__ import print_function
 
